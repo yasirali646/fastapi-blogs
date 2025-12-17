@@ -42,4 +42,4 @@ EXPOSE 8000
 ENTRYPOINT []
 
 # Run FastAPI (dev mode)
-CMD ["uv", "run", "fastapi", "dev", "--host", "0.0.0.0", "--port", "8000", "src/uv_docker_example"]
+CMD ["uv", "run", "fastapi", "dev", "--host", "0.0.0.0", "--port", "8000"]
